@@ -1,4 +1,20 @@
 {
-  "ttl": 300000,
-  "type": "someType"
+  "schemas": {
+    "document": {
+      "type": "object",
+      "title": "document_body",
+      "properties": {
+        "ttl": {
+          "type": "number"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "ttl",
+        "type"
+      ]
+    }
+  }
 }
