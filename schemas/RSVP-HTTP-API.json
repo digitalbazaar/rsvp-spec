@@ -3,18 +3,15 @@
     "document": {
       "type": "object",
       "title": "document_body",
+      "required": [
+        "type"
+      ],
+      "additionalProperties": false,
       "properties": {
-        "ttl": {
-          "type": "number"
-        },
         "type": {
           "type": "string"
         }
-      },
-      "required": [
-        "ttl",
-        "type"
-      ]
+      }
     }
   }
 }
