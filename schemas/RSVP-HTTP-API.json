@@ -4,12 +4,16 @@
       "type": "object",
       "title": "document_body",
       "required": [
-        "type"
+        "type",
+        "ttl"
       ],
       "additionalProperties": false,
       "properties": {
         "type": {
           "type": "string"
+        },
+        "ttl": {
+          type: "integer"
         }
       }
     }
