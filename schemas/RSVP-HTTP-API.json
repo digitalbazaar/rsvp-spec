@@ -13,7 +13,7 @@
           "type": "string"
         },
         "ttl": {
-          type: "integer"
+          "type": "integer"
         }
       }
     }
